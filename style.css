@@ -1,0 +1,145 @@
+/* JHU-approved fonts */
+@import url("./fonts/quadon/stylesheet.css");
+@import url("./fonts/gentona/stylesheet.css");
+
+* {
+    font-family: Quadon, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+/* Navbar */
+nav {
+    background-color: #092C74;
+    width: 100%;
+    height: 55px;
+    overflow: auto;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 500;
+    padding: 14px 16px;
+    color: white;
+    float: left
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+.dropdown {
+float: left;
+overflow: visible;
+}
+
+.dropdown .dropbtn {
+font-size: 16pt; 
+font-weight: 500; 
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: 14pt;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+nav img {
+    float: right;
+    padding: 12px 16px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    top: 29px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    margin: 0;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 10pt;
+    text-align: right;
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+
+footer img {
+    position: relative;
+    top: 7px;
+    float: left;
+}
+
+
+/* Content */  
+.main {
+    min-height: calc(100vh - 155px);
+}
+
+p, h1 {
+margin: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16pt;
+    font-family: Gentona, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+/* Welcome page */
+.welcome img {
+    float: right;
+    margin: 20px;
+    width: 150px;
+}
+
+/* About Sarah page */
+.aboutsarah img{
+    margin: 10px 20px;
+    width: 150px;
+    float: left;
+    padding: 0;
+}
